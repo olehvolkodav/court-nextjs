@@ -1,0 +1,1 @@
+Here you can define mutations or query for graphql

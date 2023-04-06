@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "**/styles/**/*.css": "postcss"
+  },
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "cSpell.words": [
+    "syncfusion"
+  ]
+}

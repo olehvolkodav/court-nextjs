@@ -1,0 +1,1 @@
+export const setState = (_state: any, payload: any) => payload;

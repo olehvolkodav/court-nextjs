@@ -1,0 +1,72 @@
+.fc-scrollgrid {
+  border: none !important;
+}
+.fc-scroller-harness thead tr th:first-child .fc-scrollgrid-sync-inner {
+  border-radius: 5px 0px 0px 0px;
+}
+.fc-scroller-harness thead tr th:last-child .fc-scrollgrid-sync-inner {
+  border-radius: 0px 5px 0px 0px;
+}
+.fc-scroller-harness thead tr th .fc-scrollgrid-sync-inner {
+  background: #E8E7EC;
+}
+.fc-dayGridWeek-view .fc-scroller-harness thead tr th .fc-scrollgrid-sync-inner {
+  background: transparent !important;
+}
+.fc-scroller-harness thead tr th .fc-scrollgrid-sync-inner a {
+  color: #605A83;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fc-theme-standard th {
+  border: none !important;
+}
+.fc-theme-standard td {
+  border: 1px solid #C2C0CF !important;
+}
+.fc-dayGridWeek-view .fc-scrollgrid-sync-inner {
+  text-align: start;
+}
+.fc-dayGridWeek-view .fc-scrollgrid-sync-inner a {
+  margin-left: 0px;
+}
+.fc-dayGridWeek-view .fc-scrollgrid tbody .fc-daygrid-day {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+.fc-dayGridWeek-view .fc-scrollgrid tbody .fc-daygrid-day .fc-daygrid-day-frame {
+  background: transparent !important;
+}
+.fc-dayGridWeek-view .fc-scrollgrid-section td:first-child {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+.fc-dayGridWeek-view .fc-scrollgrid-section td {
+  border-left: 1px dashed #C2C0CF !important;
+}
+.fc-theme-standard td .fc-daygrid-day-frame {
+  background: #F6F6F7;
+  min-height: 170px;
+}
+
+.calendar-time-grid .fc-timegrid-slots table tbody tr td:first-child {
+  display: none;
+}
+.calendar-time-grid .fc-timegrid-event-harness-inset .fc-timegrid-event {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.calendar-time-grid .fc .fc-timegrid-slot {
+  height: 64px;
+  border: 0.790284px dashed #EBEBEB !important;
+  background: white;
+}
+.calendar-time-grid .fc-theme-standard td {
+  border-top: 0.790284px dashed #EBEBEB !important;
+  border-bottom: 0.790284px dashed #EBEBEB !important;
+  border-left: 0.790284px solid #DAD9E2 !important;
+  border-right: 0.790284px solid #DAD9E2 !important;
+}

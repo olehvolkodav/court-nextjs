@@ -1,0 +1,51 @@
+.x-table {
+  @apply min-w-full;
+}
+
+.x-table,
+.x-table tbody {
+  @apply divide-y divide-gray-200;
+}
+
+.x-table th {
+  @apply py-3 whitespace-nowrap text-left text-sm font-medium text-black tracking-wider;
+}
+
+.x-table td {
+  @apply py-4 whitespace-nowrap text-sm text-gray-700;
+}
+
+.x-table td:not(.no-padding),
+.x-table th:not(.no-padding) {
+  @apply px-6;
+}
+
+.x-2-table {
+  @apply min-w-full;
+  th {
+    @apply py-3 whitespace-nowrap text-left text-sm font-medium text-black tracking-wider px-6;
+  }
+
+  td {
+    @apply py-4 whitespace-nowrap text-sm text-gray-700 px-6 bg-white;
+  }
+
+  /* if we have different background color this should not be defined here */
+  thead {
+    @apply border-gray-100;
+    border-bottom-width: 14px;
+
+    tr:not(.no-bg) {
+      th {
+        @apply bg-white;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      @apply border-gray-100;
+      border-top-width: 14px;
+    }
+  }
+}

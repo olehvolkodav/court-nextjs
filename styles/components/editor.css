@@ -1,0 +1,123 @@
+.fixed-editor {
+  .ProseMirror {
+    @apply border-none m-0 p-0 !important;
+  }
+
+  .ProseMirror p.is-editor-empty:first-child::before {
+    color: #adb5bd;
+    content: attr(data-placeholder);
+    float: left;
+    height: 0;
+    pointer-events: none;
+  }
+
+  .ProseMirror:focus {
+    @apply outline-none;
+  }
+
+  ul, ol {
+    padding: 0 1rem;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+}
+
+.content-page-form {
+  .ProseMirror p.is-editor-empty:first-child::before {
+    color: #adb5bd;
+    content: attr(data-placeholder);
+    float: left;
+    height: 0;
+    pointer-events: none;
+  }
+
+  p+p {
+    margin-top: 16px;
+  }
+}
+
+.content-code {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f7f9fb;
+  color: #3b424b;
+  box-decoration-break: clone;
+  font-size: 14px;
+}
+
+.editor {
+  position: relative;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.editor-menu {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: calc(100% - 4px);
+  height: 40px;
+  margin: 0;
+  padding: 0 8px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid #edf1f6;
+  background-color: #fff;
+  color: #68707d;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  margin: 0;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1;
+  font-weight: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menu-button {
+  width: 32px;
+  padding: 0;
+}
+
+.menu-button:hover,
+.menu-button.is-active {
+  background-color: #edf1f6;
+  color: #242e39;
+}
+
+.menu-button:disabled {
+  color: #c7cdd4;
+}
+
+.ProseMirror {
+  min-height: 150px;
+  margin-top: 4px;
+  padding: 8px 8px 8px;
+}
+.ProseMirror-focused{
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+/*********Content Page design css-End**********/
